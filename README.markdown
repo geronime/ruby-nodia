@@ -5,6 +5,17 @@
 ruby-nodia is a simple module to convert text to ASCII using Unicode NFD
 and additional substitutions/transliterations.
 
+The algorithm is pretty much the same as
+[here] (http://ahinea.com/en/tech/accented-translate.html).
+
+## Usage:
+
+    require 'ruby-nodia'
+    ascii = NoDia.strip utf8text
+
+## Changelog:
+
++ __0.0.1__: first revision of diacritic stripper
 
 ## License:
 
